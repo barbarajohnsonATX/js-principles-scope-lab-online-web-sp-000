@@ -11,4 +11,6 @@ function setBestCustomer()
   //variables created without var, let, const are global
   bestCustomer = 'not bob';
 }
+
+
  
