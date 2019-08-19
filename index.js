@@ -3,18 +3,22 @@ var customerName = 'bob'
 
 function upperCaseCustomerName()
 {
-   return customerName = customerName.toUpperCase();
+   customerName = customerName.toUpperCase();
+   return customerName;
 }
 
 function setBestCustomer()
 {
   //variables created without var, let, const are global
-  return bestCustomer = 'not bob';
+   bestCustomer = 'not bob';
+   return bestCustomer;
+  
 }
 
 function overwriteBestCustomer()
 {
-  return bestCustomer = 'maybe bob';
+  bestCustomer = 'maybe bob';
+  return bestCustomer;
 }
 
 
