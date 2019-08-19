@@ -23,7 +23,7 @@ function overwriteBestCustomer()
 
 function changeLeastFavoriteCustomer()
 {
-  
+  leastFavoriteCustomer = 'bill';
 }
 
 
