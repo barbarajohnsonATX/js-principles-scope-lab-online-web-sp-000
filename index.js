@@ -1,10 +1,11 @@
 // Write your solution in this file!
 var customerName = 'bob'
 
-function upperCaseCustomerName(name)
+function upperCaseCustomerName()
 {
-  let upper = name.toUpperCase();
-  console.log(upper);
+  let customerName = 'bob';
+  let upper = customerName.toUpperCase();
+   
   return upper;
 }
 
